@@ -85,6 +85,7 @@ end, 500, 0)
 ---
 
 🛠️ Dependencies
+
 `[R]Accounts` – Account management
 
 `[R]Core` – Core framework
