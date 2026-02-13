@@ -1,0 +1,4 @@
+<meta>
+	<authot name="GodFather" discription="Flasher System" type="server" />
+	<script src="server.lua" type="server" />
+</meta>
