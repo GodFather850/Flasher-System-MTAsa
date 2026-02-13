@@ -57,7 +57,7 @@ addEventHandler("onResourceStart", resourceRoot, connectDatabase)
 addCommandHandler("flashlist", function(thePlayer)
     outputChatBox("#9B00FF========================Flasher-List========================", thePlayer, 255, 255 ,255, true)
     for i = 1, 5 do
-        outputChatBox(string.format("#9B00FF [Flasher %d]: #4D006B cheshmak #FFFFFF %d chap %d rast #FFAE00 %d Gold", 
+        outputChatBox(string.format("#9B00FF [Flasher %d]: #4D006B cheshmak #FFFFFF %d Left %d Right #FFAE00 %d Gold", 
             i, i, i, prices[i].price), thePlayer, 255, 255, 255, true)
     end
     exports["notf"]:addNotification(thePlayer, "List")
@@ -191,5 +191,6 @@ addCommandHandler("offflasher", function(thePlayer)
             setVehicleLightState(veh, i, 0)
         end
     end
+
 
 end)
